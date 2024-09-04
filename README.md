@@ -58,6 +58,7 @@ You can also download the latest static build from [here](https://ffmpeg.org/dow
 - Portuguese (pt)
 - Russian (ru)
 - Spanish (es)
+- Japanese (ja)
 
 If you would like to request support for a new language, please open an issue. You can also open a pull request if you would like to contribute.
 

@@ -9,6 +9,7 @@ ELEMENT_TRANSLATIONS = {
         "Ik ben geen robot",
         "Non sono un robot",
         "Não sou um robô",
+        "私はロボットではありません",
     ),
     "get_an_audio_challenge": (
         "Get an audio challenge",
@@ -20,6 +21,7 @@ ELEMENT_TRANSLATIONS = {
         "Een audio-uitdaging ophalen",
         "Verifica audio",
         "Receber um desafio de áudio",
+        "確認用の文字を音声として聞く",
     ),
     "get_a_visual_challenge": (
         "Get a visual challenge",
@@ -31,6 +33,7 @@ ELEMENT_TRANSLATIONS = {
         "Een visuele uitdaging ophalen",
         "Verifica visiva",
         "Receber um desafio visual",
+        "確認用の文字を画像として表示",
     ),
     "get_a_new_challenge": (
         "Get a new challenge",
@@ -42,6 +45,7 @@ ELEMENT_TRANSLATIONS = {
         "Een nieuwe uitdaging ophalen",
         "Nuova verifica",
         "Receber outro desafio",
+        "別の画像を表示"
     ),
     "alternatively_download_audio_as_mp3": (
         "Alternatively, download audio as MP3",
@@ -53,6 +57,7 @@ ELEMENT_TRANSLATIONS = {
         "Of download het geluid als MP3-bestand",
         "In alternativa, scarica l'audio come MP3",
         "Como alternativa, faça o download do áudio como MP3",
+        "または MP3 形式で音声をダウンロード",
     ),
     "enter_what_you_hear": (
         "Enter what you hear",
@@ -64,6 +69,7 @@ ELEMENT_TRANSLATIONS = {
         "Geef op wat je hoort",
         "Inserisci quello che senti",
         "Digite o que você ouve",
+        "聞こえたとおりに入力してください",
     ),
     "skip": (
         "Skip",
@@ -75,6 +81,7 @@ ELEMENT_TRANSLATIONS = {
         "Overslaan",
         "Salta",
         "Pular",
+        "スキップ",
     ),
     "next": (
         "Next",
@@ -86,6 +93,7 @@ ELEMENT_TRANSLATIONS = {
         "Volgende",
         "Avanti",
         "Avançar",
+        "次へ",
     ),
     "verify": (
         "Verify",
@@ -97,6 +105,7 @@ ELEMENT_TRANSLATIONS = {
         "Verifiëren",
         "Verifica",
         "Verificar",
+        "確認",
     ),
     "try_again_later": (
         "Try again later",
@@ -108,6 +117,7 @@ ELEMENT_TRANSLATIONS = {
         "Probeer het later opnieuw",
         "Riprova più tardi",
         "Tente novamente mais tarde",
+        "しばらくしてからもう一度お試しください",
     ),
     "multiple_correct_solutions_required": (
         "Multiple correct solutions required - please solve more",
@@ -119,6 +129,7 @@ ELEMENT_TRANSLATIONS = {
         "Er zijn meerdere juiste oplossingen vereist - geef meer oplossingen op",
         "È necessario fornire più soluzioni corrette. Risolvi altri captcha",
         "São necessárias várias soluções corretas. Solucione mais",
+        "複数の正解が必要です。もっと解いてください。",
     ),
     "press_play_to_listen": (
         "Press PLAY to listen",
@@ -130,6 +141,7 @@ ELEMENT_TRANSLATIONS = {
         "Druk op AFSPELEN om te luisteren",
         "Premi RIPRODUCI per ascoltare",
         "Pressione REPRODUZIR para ouvir",
+        "聞くには [再生] を押してください",
     ),
     "please_try_again": (
         "Please try again",
@@ -141,6 +153,7 @@ ELEMENT_TRANSLATIONS = {
         "Probeer het opnieuw",
         "Riprova",
         "Tente novamente",
+        "もう一度お試しください。",
     ),
     "please_also_check_the_new_images": (
         "Please also check the new images",
@@ -152,6 +165,7 @@ ELEMENT_TRANSLATIONS = {
         "Controleer ook de nieuwe afbeeldingen",
         "Controlla anche le nuove immagini",
         "Verifique também as novas imagens",
+        "新しい画像もご確認ください。",
     ),
     "please_select_all_matching_images": (
         "Please select all matching images",
@@ -163,11 +177,12 @@ ELEMENT_TRANSLATIONS = {
         "Selecteer alle overeenkomende afbeeldingen",
         "Seleziona tutte le immagini corrispondenti",
         "Selecione todas as imagens correspondentes",
+        "該当する画像をすべて選択してください。",
     ),
 }
 
 OBJECT_TRANSLATIONS = {
-    "taxis": ("taxis", "такси", "出租车", "Taxis", "taxi's", "taxi", "táxis"),
+    "taxis": ("taxis", "такси", "出租车", "Taxis", "taxi's", "taxi", "táxis", "タクシー"),
     "bus": (
         "bus",
         "buses",
@@ -181,6 +196,7 @@ OBJECT_TRANSLATIONS = {
         "bussen",
         "autobus",
         "ônibus",
+        "バス",
     ),
     "motorcycles": (
         "motorcycles",
@@ -192,6 +208,7 @@ OBJECT_TRANSLATIONS = {
         "motorfietsen",
         "motoren",
         "motocicli",
+        "オートバイ",
     ),
     "tractors": (
         "tractors",
@@ -203,6 +220,7 @@ OBJECT_TRANSLATIONS = {
         "tractoren",
         "trattori",
         "tratores",
+        "トラクター",
     ),
     "chimneys": (
         "chimneys",
@@ -214,6 +232,7 @@ OBJECT_TRANSLATIONS = {
         "schoorstenen",
         "camini",
         "chaminés",
+        "煙突",
     ),
     "crosswalks": (
         "crosswalks",
@@ -228,6 +247,7 @@ OBJECT_TRANSLATIONS = {
         "strisce pedonali",
         "faixas de pedestres",
         "faixas de pedestre",
+        "横断歩道",
     ),
     "traffic_lights": (
         "traffic lights",
@@ -238,6 +258,7 @@ OBJECT_TRANSLATIONS = {
         "Ampeln",
         "verkeerslichten",
         "semafori",
+        "信号機",
     ),
     "bicycles": (
         "bicycles",
@@ -248,6 +269,7 @@ OBJECT_TRANSLATIONS = {
         "Fahrrädern",
         "fietsen",
         "biciclette",
+        "自転車",
     ),
     "parking_meters": (
         "parking meters",
@@ -258,6 +280,7 @@ OBJECT_TRANSLATIONS = {
         "Parkometern",
         "parkeermeters",
         "parchimetri",
+        "パーキングメーター",
     ),
     "cars": (
         "cars",
@@ -269,6 +292,7 @@ OBJECT_TRANSLATIONS = {
         "auto's",
         "auto",
         "carros",
+        "自動車",
     ),
     "bridges": (
         "bridges",
@@ -280,8 +304,9 @@ OBJECT_TRANSLATIONS = {
         "bruggen",
         "ponti",
         "pontes",
+        "橋",
     ),
-    "boats": ("boats", "лодки", "船", "barcos", "bateaux", "Boote", "boten", "barche"),
+    "boats": ("boats", "лодки", "船", "barcos", "bateaux", "Boote", "boten", "barche", "ボート"),
     "palm_trees": (
         "palm trees",
         "пальмы",
@@ -292,6 +317,7 @@ OBJECT_TRANSLATIONS = {
         "palmbomen",
         "palme",
         "palmeiras",
+        "ヤシの木",
     ),
     "mountains_or_hills": (
         "mountains or hills",
@@ -322,6 +348,7 @@ OBJECT_TRANSLATIONS = {
         "idranti",
         "um hidrante",
         "hidrantes",
+        "消火栓",
     ),
     "stairs": (
         "stairs",
@@ -333,6 +360,7 @@ OBJECT_TRANSLATIONS = {
         "trappen",
         "scale",
         "escadas",
+        "階段",
     ),
 }
 
